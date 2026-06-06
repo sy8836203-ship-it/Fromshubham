@@ -8,7 +8,8 @@
 <h2>About Me</h2>
 
 <p>My name is shubham yadav.</p>
-<p>I am learing a web devlopment.</p>
+<p>I am just a simple, innocent boy</p>
+ <p>I am not good at anything at all</p>
 
 <h3>my introduction</h3>
 
