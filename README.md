@@ -7,8 +7,8 @@
 <h1>Welcome to My Website</h1>
 <h2>About Me</h2>
 
-<p>Mera naam Shubham hai.</p>
-<p>Main chota sa Web Development hoon.</p>
+<p>My name is shubham yadav.</p>
+<p>I am learing a web devlopment.</p>
 
 <h3>my introduction</h3>
 
