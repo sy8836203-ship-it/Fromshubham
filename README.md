@@ -24,7 +24,7 @@
 <p>💻 I Enjoy Learning New Editing Skills studing<p/>  
 <p>🤝 I Believe In Respect And Humility<p/>  
 <p>🚀 I Am Working diffrent skill I think this is wrong<p>  
-<p>earliy people think this is wrong   They think that studies are everything.<p/>
+<p>Earliy people  They think that studies are everything.<p/>
     <p>BUT WHY<p/>
 </p>✨ This Is Just The Beginning Of My Journey</p>   
 
