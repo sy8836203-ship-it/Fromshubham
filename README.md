@@ -9,7 +9,7 @@
 
 <p>My name is shubham yadav.</p>
 <p>I am just a simple, innocent boy</p>
- <p>I am not good at anything at all</p>
+ <p>I am not good at anything </p>
 
 <h3>my introduction</h3>
 
@@ -22,11 +22,11 @@
 <p>I am preparing for NEET<p/>
 <p>🎬 I Work As A small Phonk Editor</p>  
 <p>🎧 I Love Listening To Songs<p/>   
-<p>💻 I Enjoy Learning New Editing Skills studing<p/>  
+<p>💻 I Enjoy Learning New Skills like studing Editing and AI learing etc<p/>  
 <p>🤝 I Believe In Respect And Humility<p/>  
 <p>🚀 I Am Working diffrent skill I think this is wrong<p>  
 <p>Earliy people  They think that studies are everything.<p/>
-    <p>BUT WHY<p/>
+    <p>Is this correct<p/>
 </p>✨ This Is Just The Beginning Of My Journey</p>   
 
 <h4>Extra knowladge</h4>
