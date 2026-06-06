@@ -17,13 +17,13 @@
 
 <p>📍 I Live In Chhatarpur Khushal, Azamgarh</p>  
 <p/>🎂 I Am 17 Years Old<p/>  
-📚 I Am A Student  
-🎬 I Work As A Phonk Editor  
-🎧 I Love Listening To 90s Songs   
-💻 I Enjoy Learning New Editing Skills  
-🤝 I Believe In Respect And Humility  
-🚀 I Am Working Hard For My Dreams  
-✨ This Is Just The Beginning Of My Journey</p>   
+<p>📚 I Am A Student</p>  
+<p>🎬 I Work As A Phonk Editor</p>  
+<p>🎧 I Love Listening To 90s Songs<p/>   
+<p>💻 I Enjoy Learning New Editing Skills<p/>  
+<p>🤝 I Believe In Respect And Humility<p/>  
+<p>🚀 I Am Working Hard For My mind<p>  
+</p>✨ This Is Just The Beginning Of My Journey</p>   
 
 
 </body>
