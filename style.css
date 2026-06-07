@@ -1,9 +1,0 @@
-.Happy__Birthday  {
-    font-family: 'My love';
-    content: "Happy Birthday!";
-    color: #c2185b;
-    font-size: 4.0em;
-    font-weight: 700;
-    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
-
-}
