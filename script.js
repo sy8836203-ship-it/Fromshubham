@@ -48,9 +48,9 @@ function unlockEdit() {
         isUnlocked = true;
         updateAuthUI();
         closeAuthModal();
-        alert('✅ Unlocked! Aap ab edit kar sakte ho!');
+        showToast('✅ Unlocked! Aap ab edit kar sakte ho!');
     } else {
-        alert('❌ Wrong password!');
+        showToast('❌ Wrong password!');
         document.getElementById('passwordInput').value = '';
     }
 }
@@ -74,7 +74,7 @@ function updateAuthUI() {
 // ===== INTRO BOX FUNCTIONS =====
 function toggleEditIntro() {
     if (!isUnlocked) {
-        alert('🔒 Pehle password unlock kar!');
+       showToast('🔒 Pehle password unlock kar!');
         return;
     }
     
@@ -139,7 +139,7 @@ function toggleForm() {
 
 function addPoint() {
     if (!isUnlocked) {
-        alert('🔒 Pehle password unlock kar!');
+       showToast('🔒 Pehle password unlock kar!');
         return;
     }
 
@@ -163,7 +163,7 @@ function addPoint() {
 
 function deletePoint(id) {
     if (!isUnlocked) {
-        alert('🔒 Pehle password unlock kar!');
+        showToast('🔒 Pehle password unlock kar!');
         return;
     }
 
