@@ -652,8 +652,10 @@ input::placeholder, textarea::placeholder {
 }
 .toast{
     position: fixed;
-    top: 20px;
-    right: 20px;
+
+    top: 50%;
+    left: 50%;
+
     background: #111827;
     color: white;
     padding: 14px 20px;
@@ -664,12 +666,12 @@ input::placeholder, textarea::placeholder {
     z-index: 9999;
 
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translate(-50%, -50%) scale(.9);
     transition: all .3s ease;
     pointer-events: none;
 }
 
 .toast.show{
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(-50%, -50%) scale(1);
 }
