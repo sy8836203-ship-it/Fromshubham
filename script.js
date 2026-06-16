@@ -122,7 +122,7 @@ function renderPoints() {
 // ===== FORM FUNCTIONS =====
 function toggleForm() {
     if (!isUnlocked) {
-        alert('🔒 Pehle password unlock kar!');
+       showToast('🔒 Pehle password unlock kar!');
         return;
     }
 
@@ -175,3 +175,13 @@ function deletePoint(id) {
 
 // ===== INITIALIZE =====
 renderPoints();
+function showToast(message) {
+    const toast = document.getElementById("toast");
+
+    toast.textContent = message;
+    toast.classList.add("show");
+
+    setTimeout(() => {
+        toast.classList.remove("show");
+    }, 2500);
+}
