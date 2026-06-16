@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham yadav - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="border-top"></div>
+    <div class="border-bottom"></div>
+
+    <!-- Lock Icon Button -->
+    <button class="lock-icon-btn locked" id="lockBtn" onclick="openAuthModal()" title="Click to unlock">
+        🔒
+    </button>
+
+    <!-- Auth Modal -->
+    <div class="auth-modal" id="authModal">
+        <div class="modal-content">
+            <div class="modal-title">
+                <span class="modal-icon" id="modalIcon">🔒</span>
+                <span id="modalTitle">Unlock Edit Mode</span>
+            </div>
+            <p class="modal-subtitle">Password enter kar aur Ok click kar</p>
+            <input 
+                type="password" 
+                class="auth-input" 
+                id="passwordInput" 
+                placeholder="Enter your password" 
+                onkeypress="if(event.key==='Enter') unlockEdit()"
+            />
+            <div class="modal-buttons">
+                <button class="auth-button" onclick="unlockEdit()">Ok</button>
+                <button class="auth-button btn-cancel" onclick="closeAuthModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="icon-box">
+                <img src="myphoto.jpg" alt="Shubham" class="profile-pic">
+            </div>
+            <h1>Hey, I'm Shubham</h1>
+            <p class="subtitle">Passionate about building things that matter, learning continuously, aur pushing boundaries in tech & creativity.</p>
+        </div>
+
+        <!-- Personal Intro Box -->
+        <div class="intro-box" id="introBox">
+            <div class="intro-header">
+                <h2 class="intro-title">About Me</h2>
+                <button class="edit-btn disabled" id="editIntroBtn" onclick="toggleEditIntro()" title="Edit">✏️</button>
+            </div>
+            <p class="intro-text" id="introText"><strong>My name is Shubham Yadav</strong>. I am from Chattarpur Khushal in Azamgarh, UP, India. I'm passionate about creating amazing digital experiences aur pushing boundaries in technology. Always learning, always building! 🚀</p>
+            
+            <div class="intro-form" id="introForm">
+                <textarea id="introInput" placeholder="Write your intro..."></textarea>
+                <div class="form-buttons">
+                    <button class="btn-submit" onclick="saveIntro()">Save</button>
+                    <button class="btn-cancel" onclick="toggleEditIntro()">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Points Grid -->
+        <div class="points-grid" id="pointsGrid"></div>
+
+        <!-- Add Section -->
+        <button class="add-button disabled" id="addButton" onclick="toggleForm()" title="Unlock to add">
+            <span>➕</span>
+            <span>Add Another Point</span>
+        </button>
+
+        <div class="form-container" id="formContainer">
+            <div class="form-group">
+                <label>Point Title</label>
+                <input type="text" id="titleInput" placeholder="e.g., 'My Skill'" />
+            </div>
+            <div class="form-group">
+                <label>Description</label>
+                <textarea id="descriptionInput" placeholder="e.g., 'I love building...'" ></textarea>
+            </div>
+            <div class="form-buttons">
+                <button class="btn-submit" onclick="addPoint()">Add Point</button>
+                <button class="btn-cancel" onclick="toggleForm()">Cancel</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Made by ❤️ Shubham</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
